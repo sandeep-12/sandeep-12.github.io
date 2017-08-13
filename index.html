@@ -28,8 +28,8 @@
 		}
 
 		function putspan(backcolor, forecolor) {
-		 document.write("<span id='cntdwn' style='background-color:" + backcolor + 
-		                "; color:" + forecolor + "'></span>");
+		 document.getElementById("countDown").innerHTML = "<span id='cntdwn' style='background-color:" + backcolor + 
+		                "; color:" + forecolor + "'></span>";
 		}
 
 		if (typeof(BackColor)=="undefined")
@@ -64,9 +64,17 @@
 		gsecs = Math.floor(ddiff.valueOf()/1000);
 		CountBack(gsecs);
 	</script>
+	<style type="text/css">
+		#countDown {
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		}
+	</style>
 </head>
 
 <body>
+	<div id="countDown">Some text</div>
 </body>
 
 </html>
