@@ -1,6 +1,20 @@
 <html>
 <head>
 	<title>Sandeep Sharma</title>
+	<style type="text/css">
+		#countDown {
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="countDown">Time left...</div>
+
+
+
 	<script type="text/javascript">
 		TargetDate = "08/15/2017 12:00 AM";
 	    DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
@@ -64,17 +78,6 @@
 		gsecs = Math.floor(ddiff.valueOf()/1000);
 		CountBack(gsecs);
 	</script>
-	<style type="text/css">
-		#countDown {
-		    position: absolute;
-		    left: 50%;
-		    top: 50%;
-		}
-	</style>
-</head>
-
-<body>
-	<div id="countDown">Some text</div>
 </body>
 
 </html>
