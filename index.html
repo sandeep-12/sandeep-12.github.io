@@ -7,18 +7,22 @@
 		    left: 50%;
 		    top: 50%;
 		}
+
+		body{
+			background: url("https://www.clipartsgram.com/image/1180937011-gray-plain-website-background.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
 	</style>
 </head>
 
 <body>
 	<div id="countDown">Time left...</div>
 
-
-
 	<script type="text/javascript">
 		TargetDate = "08/15/2017 12:00 AM";
 	    DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-	    FinishMessage = "It is finally here!";
+	    FinishMessage = "Sandeep Sharma";
 		function calcage(secs, num1, num2) {
 		  s = ((Math.floor(secs/num1))%num2).toString();
 		  if (LeadingZero && s.length < 2)
@@ -41,15 +45,12 @@
 		    setTimeout("CountBack(" + (secs+CountStepper) + ")", SetTimeOutPeriod);
 		}
 
-		function putspan(backcolor, forecolor) {
-		 document.getElementById("countDown").innerHTML = "<span id='cntdwn' style='background-color:" + backcolor + 
-		                "; color:" + forecolor + "'></span>";
+		function putspan(forecolor) {
+		 document.getElementById("countDown").innerHTML = "<h2 id='cntdwn' style='color:" + forecolor + "'></h2>";
 		}
 
-		if (typeof(BackColor)=="undefined")
-		  BackColor = "white";
 		if (typeof(ForeColor)=="undefined")
-		  ForeColor= "black";
+		  ForeColor= "#ffffff";
 		if (typeof(TargetDate)=="undefined")
 		  TargetDate = "12/31/2020 5:00 AM";
 		if (typeof(DisplayFormat)=="undefined")
@@ -68,7 +69,7 @@
 		if (CountStepper == 0)
 		  CountActive = false;
 		var SetTimeOutPeriod = (Math.abs(CountStepper)-1)*1000 + 990;
-		putspan(BackColor, ForeColor);
+		putspan(ForeColor);
 		var dthen = new Date(TargetDate);
 		var dnow = new Date();
 		if(CountStepper>0)
