@@ -4,3 +4,5 @@ var dialogContent = '<dialog id="ys-dialog"><h4>ys-dialog</h4><br><p>press [esc]
 var content = document.createElement('div');
 content.innerHTML = dialogContent;
 document.body.appendChild(content);
+
+console.log("Modal Content.... END");
