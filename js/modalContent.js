@@ -11,9 +11,9 @@ var dialogTemplate = '<dialog id="ys-dialog"><strong>'+dialogHead+
 					 '</p><br><p>'+escMessage+
 					 '</p>';
 
-//Injecting the content
-/*var content = document.createElement('div');
-content.innerHTML = dialogContent;
-document.body.appendChild(content);
-*/
+//injecting the content into page
+var div = document.createElement('div');
+div.innerHTML = dialogTemplate;
+document.body.appendChild(div);
+
 console.log("Modal Content.... END");
