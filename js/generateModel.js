@@ -1,1 +1,0 @@
-document.getElementById("ys-dialog").showModal();
