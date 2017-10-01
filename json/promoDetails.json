@@ -1,6 +1,6 @@
 {
 	"available" : "true",
-	"dialogHead" : "YS Survey",
-	"dialogSummary" : "Please spare some time for us to understand you better.",
+	"dialogHead" : "YouTube Steer",
+	"dialogSummary" : "Thank you for using the chrome extension, <br> you can always request a new feature or report a bug from the about us section.",
 	"escMessage" : "Press ESC key to Close."
 }
