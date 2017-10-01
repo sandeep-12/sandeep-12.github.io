@@ -1,4 +1,5 @@
 {
+	"available" : "true",
 	"dialogHead" : "YS Survey",
 	"dialogSummary" : "Please spare some time for us to understand you better.",
 	"escMessage" : "Press ESC key to Close."
