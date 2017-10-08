@@ -1,7 +1,7 @@
 {
 	"available" : "true",
 	"dialogHead" : "YouTube Steer",
-	"dialogSummary" : "Thank you for using the chrome extension, <br> you can always request a new feature or report a bug from the about us section.<br> Below is a good suggestion for you : <br> <iframe width='854' height='480' src='https://www.youtube.com/embed/FLUIPe7ja94' frameborder='0'></iframe>",
+	"dialogSummary" : "Thank you for using the chrome extension, <br> you can always request a new feature or report a bug from the about us section.",
 	"escMessage" : "Press ESC key to Close.",
 	"testMessage" : "<img src='http://www.cartoonson.com/_resources/Cartoons/show/12/image/555x418/Tom-and-Jerry-classic.jpg'>"
 }
